@@ -21,6 +21,5 @@ dz_dx = tape.gradient(z, x)
 dz_dy = tape.gradient(z, y)
 
 print(dz_dx.numpy())
-print(\n)
+print('\n')
 print(dz_dy.numpy())
-
